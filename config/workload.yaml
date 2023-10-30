@@ -25,6 +25,10 @@ spec:
         owner: customer-relations-department
         system: profile-management
         description: Manage customer profiles
+    - name: testing_pipeline_matching_labels
+      value:
+	apps.tanzu.vmware.com/pipeline: test
+	apps.tanzu.vmware.com/language: java
   source:
     git:
       url: https://github.com/stuartblackburnvmware/java-rest-service
